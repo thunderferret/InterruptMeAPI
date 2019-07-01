@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'InterruptMeAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.path.join(BASE_DIR, 'mysql'),
+        'NAME': 'restapi',
         'USER' : 'root',
         'PASSWORD' : '0000',
         'HOST' : '127.0.0.1',
-        'PORT' : '8080',
+        'PORT' : '',
     }
 }
 
